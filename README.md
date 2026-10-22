@@ -140,7 +140,7 @@ Verifica executáveis, caminhos legíveis e presença de variáveis de ambiente.
 python practical/git_scribe.py "$HOME/MIATSUNO-Lab" --limit 5 --json
 ```
 
-Mostra raiz, branch, estado da árvore de trabalho, commits recentes e remotos. `clean: true` indica árvore limpa; alterações locais aparecem na seção `status`. A ferramenta não faz commit, checkout, fetch ou push. Remotos e mensagens de commit podem revelar informação interna: revise o relatório antes de publicar.
+Mostra raiz, branch, estado da árvore de trabalho, commits recentes e remotos. `clean: true` indica árvore limpa; alterações locais aparecem na seção `status`. A ferramenta não faz commit, checkout, fetch ou push.
 
 #### `snippet_box` — guardar e buscar snippets locais
 
